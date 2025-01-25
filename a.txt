@@ -1,3 +1,0 @@
-Run CMD command (with admin): `sc create "DropboxUpdatingService" binPath= C:\Users\[User]\AppData\Local\Temp\sc.exe type= own start= delayed-auto`
-
-Allow Auto Restart if service fails (handler not connected, etc.): `sc.exe failure "DropboxUpdatingService" reset= 43200 actions= restart/300000/restart/300000/restart/300000/restart/300000/restart/300000`
